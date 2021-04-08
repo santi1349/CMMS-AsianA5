@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import TestComponent from '.testcomponent';
+import  App  from './app';
 
 render(
-    <TestComponent />,
-    document.querySelector('#react-app'),
+  <App />,
+  document.querySelector('#root'),
 );
